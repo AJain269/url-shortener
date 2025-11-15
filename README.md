@@ -15,10 +15,10 @@ Node.js, Express, and MongoDB.
 
 ## Tech Stack
 
-**Backend:** Node.js, Express.js, TypeScript
-**Database:** MongoDB with Mongoose
-**Validation:** Built‑in URL validation
-**Logging:** Custom logger with timestamps
+-   **Backend:** Node.js, Express.js, TypeScript
+-   **Database:** MongoDB with Mongoose
+-   **Validation:** Built‑in URL validation
+-   **Logging:** Custom logger with timestamps
 
 ## Installation
 
@@ -167,5 +167,6 @@ npm run dev
 npm run build
 npm start
 ```
+
 
 
