@@ -5,19 +5,19 @@ Node.js, Express, and MongoDB.
 
 ## Features
 
--   RESTful API with TypeScript\
--   MongoDB integration with Mongoose ODM\
--   Duplicate URL detection -- Same URL gets same short code\
--   Click analytics with tracking\
--   Input validation and error handling\
--   Professional logging with performance metrics\
+-   RESTful API with TypeScript
+-   MongoDB integration with Mongoose ODM
+-   Duplicate URL detection - Same URL gets same short code
+-   Click analytics with tracking
+-   Input validation and error handling
+-   Professional logging with performance metrics
 -   API documentation built‑in
 
 ## Tech Stack
 
-**Backend:** Node.js, Express.js, TypeScript\
-**Database:** MongoDB with Mongoose\
-**Validation:** Built‑in URL validation\
+**Backend:** Node.js, Express.js, TypeScript
+**Database:** MongoDB with Mongoose
+**Validation:** Built‑in URL validation
 **Logging:** Custom logger with timestamps
 
 ## Installation
@@ -132,32 +132,32 @@ curl http://localhost:5000/api/url/
 ```
 
 ## Status Codes
--   200 -- Success\
--   201 -- Created\
--   302 -- Redirect\
--   400 -- Bad Request\
--   404 -- Not Found\
--   500 -- Server Error
+-   200 - Success
+-   201 - Created
+-   302 - Redirect
+-   400 - Bad Request
+-   404 - Not Found
+-   500 - Server Error
 
 ## Features in Detail
 
 ### Duplicate URL Detection
--   Same long URL → same short code\
--   Avoids redundant DB entries\
+-   Same long URL → same short code
+-   Avoids redundant DB entries
 -   Ensures consistent results
 
 ### Click Analytics
--   Tracks each redirect\
--   Atomic increments in MongoDB\
+-   Tracks each redirect
+-   Atomic increments in MongoDB
 -   Usage insights
 
 ### Input Validation
--   Native URL validator\
+-   Native URL validator
 -   Friendly error responses
 
 ### Professional Logging
--   Request + response logs\
--   Timings and performance metrics\
+-   Request + response logs
+-   Timings and performance metrics
 -   Stack trace logging
 
 ## Development Scripts
@@ -171,3 +171,4 @@ npm start
 ## Environment Variables
 -   `PORT=5000`
 -   `MONGO_URI=mongodb://localhost:27017/urlshortener`
+
