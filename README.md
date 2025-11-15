@@ -56,13 +56,19 @@ npm run build
 
 Visit: `http://localhost:5000`
 
-### Endpoints
+## Endpoints
 
-Method	Endpoint	Description	Body
-POST	/api/url/shorten	Create short URL	{ "originalUrl": "string" }
-GET	/api/url/:shortId	Redirect to original URL	-
-GET	/api/url/:shortId/stats	Get URL analytics	-
-GET	/api/url/	Get all shortened URLs	-
+  ----------------------------------------------------------------------------------------------------
+  Method          Endpoint                    Description              Body
+  --------------- --------------------------- ------------------------ -------------------------------
+  **POST**        `/api/url/shorten`          Create short URL         `{ "originalUrl": "string" }`
+
+  **GET**         `/api/url/:shortId`         Redirect to original URL \-
+
+  **GET**         `/api/url/:shortId/stats`   Get URL analytics        \-
+
+  **GET**         `/api/url/`                 Get all shortened URLs   \-
+  ----------------------------------------------------------------------------------------------------
 
 ## Usage Examples
 
@@ -161,6 +167,7 @@ npm run dev
 npm run build
 npm start
 ```
+
 
 
 
