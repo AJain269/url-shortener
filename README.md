@@ -58,17 +58,8 @@ Visit: `http://localhost:5000`
 
 ## Endpoints
 
-  ----------------------------------------------------------------------------------------------------
-  Method          Endpoint                    Description              Body
-  --------------- --------------------------- ------------------------ -------------------------------
-  **POST**        `/api/url/shorten`          Create short URL         `{ "originalUrl": "string" }`
+<img width="960" height="303" alt="image" src="https://github.com/user-attachments/assets/691de50b-865b-4b55-b158-9e505bdf2c73" />
 
-  **GET**         `/api/url/:shortId`         Redirect to original URL \-
-
-  **GET**         `/api/url/:shortId/stats`   Get URL analytics        \-
-
-  **GET**         `/api/url/`                 Get all shortened URLs   \-
-  ----------------------------------------------------------------------------------------------------
 
 ## Usage Examples
 
@@ -167,6 +158,7 @@ npm run dev
 npm run build
 npm start
 ```
+
 
 
 
