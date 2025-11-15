@@ -3,6 +3,10 @@
 A professional URL shortener backend service built with TypeScript,
 Node.js, Express, and MongoDB.
 
+## Live API Base URL (Render Deployment)
+
+Base URL: https://url-shortener-9smo.onrender.com/ 
+
 ## Features
 
 -   RESTful API with TypeScript
@@ -158,6 +162,7 @@ npm run dev
 npm run build
 npm start
 ```
+
 
 
 
