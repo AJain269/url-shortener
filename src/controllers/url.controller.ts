@@ -40,13 +40,14 @@ export const shortenUrl = async (req: Request, res: Response): Promise<void> => 
     const existingUrl = await Url.findOne({ originalUrl });
 
     if (existingUrl) {
-      logger.info('URL already exists, returning existing short URL', {
+      logger.info('URL already exists in database', {
         shortId: existingUrl.shortId,
         originalUrl: `${originalUrl.substring(0, 50)}...`
       });
-      
-      res.json({
-        status: 'success',
+
+      res.status(200).json({
+        status: 'exists',
+        message: 'URL already exists in the database',
         shortUrl: `${req.protocol}://${req.get('host')}/api/url/${existingUrl.shortId}`
       });
       return;
