@@ -42,8 +42,8 @@ cp .env.example .env
 ```
 
 Update `.env`:
-    PORT=5000
-    MONGO_URI=mongodb://localhost:27017/urlshortener
+-   `PORT=5000`
+-   `MONGO_URI=mongodb://localhost:27017/urlshortener`
 
 ### Run the application
 
@@ -168,7 +168,4 @@ npm run build
 npm start
 ```
 
-## Environment Variables
--   `PORT=5000`
--   `MONGO_URI=mongodb://localhost:27017/urlshortener`
 
